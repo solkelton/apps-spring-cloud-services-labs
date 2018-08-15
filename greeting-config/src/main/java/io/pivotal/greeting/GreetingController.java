@@ -17,7 +17,6 @@ public class GreetingController {
     private GreetingProperties greetingProperties;
     private FortuneService fortuneService;
 
-//    @Autowired
     public GreetingController(GreetingProperties greetingProperties, FortuneService fortuneService) {
         this.greetingProperties = greetingProperties;
         this.fortuneService = fortuneService;
