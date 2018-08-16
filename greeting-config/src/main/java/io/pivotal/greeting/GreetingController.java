@@ -22,7 +22,6 @@ public class GreetingController {
         this.fortuneService = fortuneService;
     }
 
-
     @RequestMapping("/")
     public String getGreeting(Model model) {
 
